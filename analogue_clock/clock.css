@@ -3,6 +3,11 @@ body{
 }
 
 #canvas{
-    margin-left: 300px;
-    margin-top: 50px;
+    /* margin-left: 300px;
+    margin-top: 50px; */
+    max-width: -webkit-fill-available;
+    vertical-align: -webkit-baseline-middle;
+    margin: auto;
+    display: grid;
+    height: -webkit-fill-available;
 }
